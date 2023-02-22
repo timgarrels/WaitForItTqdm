@@ -2,7 +2,7 @@
 from tqdm import tqdm
 
 
-class CustomTqdmIterator:
+class WaitForItTqdm:
     def __init__(self, elements, specific_pass=-1, desc=""):
         self.elements = elements
 
